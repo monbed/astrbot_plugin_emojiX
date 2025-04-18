@@ -23,7 +23,7 @@ def synthesize_emojis(emoji_one: str, emoji_two: str):
         print(f"[synthesize_emojis] 请求或解析出错：{e}")
         return None
 
-@register("emoji_merge", "monbed", "Emoji 合成插件", "1.1.0")
+@register("emoji_merge", "monbed", "emojiX合成", "1.1.0")
 class EmojiPlugin(Star):
     def __init__(self, context: Context):
         super().__init__(context)
